@@ -1,0 +1,12 @@
+site_name: My Epic Campaign Wiki
+theme:
+  name: material
+  palette:
+    scheme: slate
+docs_dir: 'docs' # Tells MkDocs to ONLY look inside the docs folder!
+nav:
+  - Home: index.md
+  - Locations: 02_Locations/
+  - NPCs: 03_NPCs/
+  - Lore: 04_Lore_and_Factions/
+  - Session Summaries: 05_Session_Summaries/
