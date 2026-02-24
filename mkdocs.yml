@@ -1,4 +1,4 @@
-site_name: My Cos Reloaded Wiki
+site_name: My Epic Campaign Wiki
 site_url: https://gitbrry.github.io/Campaign-Wiki/
 theme:
   name: material
@@ -9,3 +9,11 @@ docs_dir: 'docs'
 plugins:
   - search
   - roamlinks
+
+nav:
+  - Home: index.md
+  - World Graph: World_Graph.md
+  - Locations: 02_Locations/
+  - NPCs: 03_NPCs/
+  - Lore: 04_Lore_and_Factions/
+  - Session Summaries: 05_Session_Summaries/
