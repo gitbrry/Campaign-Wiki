@@ -7,6 +7,9 @@ theme:
     scheme: slate
   features:
     - navigation.indexes # This merges the folder name with the index file
+    - navigation.prune   # This is the secret! It "prunes" (hides) things you aren't looking at
+    # navigation.sections is REMOVED
+    # navigation.expand is REMOVED
 
 docs_dir: 'docs'
 
