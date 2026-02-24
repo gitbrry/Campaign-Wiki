@@ -5,9 +5,9 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.expand # This makes sub-menus stay open/expand nicely
-    - navigation.tabs # Optional: Adds a top bar for main categories
-    - navigation.sections # Groups items into clear sections
+    - navigation.sections # This turns folder names into bold headers
+    - navigation.expand   # This makes the sub-menu items visible immediately
+    # We removed navigation.tabs to keep the menu on the left sidebar
 
 docs_dir: 'docs'
 
