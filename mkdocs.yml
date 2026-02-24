@@ -6,15 +6,11 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # Essential for merging index files
-    # No sections, no expand, no tabs. 
+    - navigation.indexes # This is the ONLY one we need to merge the folders
 
 docs_dir: 'docs'
 
 plugins:
   - search
   - roamlinks
-  - awesome-pages:
-      collapse_single_pages: true # New setting: hides folders that only have 1 page
-
-# We are leaving the nav out so awesome-pages can handle the logic
+  - awesome-pages
