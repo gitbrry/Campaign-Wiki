@@ -1,6 +1,6 @@
 site_name: My Epic Campaign Wiki
 site_url: https://gitbrry.github.io/Campaign-Wiki/
-use_directory_urls: false # This makes links simpler and fixes the 404 errors
+use_directory_urls: false
 
 theme:
   name: material
@@ -9,6 +9,7 @@ theme:
   features:
     - navigation.sections
     - navigation.expand
+    - navigation.indexes # This is the magic line that fixes your sidebar!
 
 docs_dir: 'docs'
 
