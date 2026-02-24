@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02_Locations/index.md",
+                "file": "docs/02_Locations/Example Location.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Example Location"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/02_Locations/index.md",
+                "file": "docs/02_Locations/Example Location.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Example Location"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/02_Locations/index.md",
+                "file": "docs/02_Locations/Example Location.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Example Location"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/02_Locations/index.md",
+                "file": "docs/02_Locations/Example Location.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Example Location"
             }
           }
         ]
@@ -214,14 +214,13 @@
   },
   "active": "5d80d660a9858384",
   "lastOpenFiles": [
-    "docs/02_Locations/Example Location.md",
     "docs/02_Locations/index.md",
+    "docs/02_Locations/Example Location.md",
     "docs/03_NPCs/Bob the Gob.md",
     "docs/03_NPCs/index.md",
-    "docs/04_Lore_and_Factions/Gooners.md",
     "docs/04_Lore_and_Factions/index.md",
     "docs/05_Session_Summaries/index.md",
-    "docs/05_Session_Summaries/Session 0.md",
+    "docs/04_Lore_and_Factions/Gooners.md",
     "site/search/search_index.json",
     "site/search",
     "site/05_Session_Summaries/Session 0/index.html",
@@ -232,6 +231,7 @@
     "site/04_Lore_and_Factions/index.html",
     "site/04_Lore_and_Factions/Gooners",
     "site/04_Lore_and_Factions",
+    "docs/05_Session_Summaries/Session 0.md",
     "docs/index.md",
     "Untitled.md",
     "README.md",

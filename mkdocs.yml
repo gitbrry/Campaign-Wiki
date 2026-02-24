@@ -1,7 +1,11 @@
-site_name: Cos Reloaded Wiki - by pimmelberry
+site_name: My Cos Reloaded Wiki
 site_url: https://gitbrry.github.io/Campaign-Wiki/
 theme:
   name: material
   palette:
     scheme: slate
 docs_dir: 'docs'
+
+plugins:
+  - search
+  - roamlinks
