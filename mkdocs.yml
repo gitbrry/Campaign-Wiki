@@ -1,13 +1,13 @@
 site_name: My Epic Campaign Wiki
 site_url: https://gitbrry.github.io/Campaign-Wiki/
+
 theme:
   name: material
   palette:
     scheme: slate
   features:
-    - navigation.sections # This turns folder names into bold headers
-    - navigation.expand   # This makes the sub-menu items visible immediately
-    # We removed navigation.tabs to keep the menu on the left sidebar
+    - navigation.expand # This forces all folders to stay "open" so you see sub-items
+    # DO NOT add navigation.tabs here - it will break the sidebar!
 
 docs_dir: 'docs'
 
@@ -18,7 +18,15 @@ plugins:
 nav:
   - Home: index.md
   - World Graph: World_Graph.md
-  - Locations: 02_Locations/
-  - NPCs: 03_NPCs/
-  - Lore: 04_Lore_and_Factions/
-  - Session Summaries: 05_Session_Summaries/
+  - Locations: 
+    - Overview: 02_Locations/index.md
+    - 02_Locations/ # This tells it to look for everything else in the folder
+  - NPCs:
+    - Overview: 03_NPCs/index.md
+    - 03_NPCs/
+  - Lore:
+    - Overview: 04_Lore_and_Factions/index.md
+    - 04_Lore_and_Factions/
+  - Session Summaries:
+    - Overview: 05_Session_Summaries/index.md
+    - 05_Session_Summaries/
