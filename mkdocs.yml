@@ -1,9 +1,10 @@
 site_name: My Epic Campaign Wiki
+site_url: https://gitbrry.github.io/Campaign-Wiki/
 theme:
   name: material
   palette:
     scheme: slate
-docs_dir: 'docs' # Tells MkDocs to ONLY look inside the docs folder!
+docs_dir: 'docs'
 nav:
   - Home: index.md
   - Locations: 02_Locations/
