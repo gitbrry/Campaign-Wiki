@@ -6,7 +6,9 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # This is the ONLY one we need to merge the folders
+    - navigation.indexes # Merges the folder with the index file
+    - navigation.sections # Ensures arrows and bold headers stay consistent
+    # navigation.expand is GONE (to keep it collapsed)
 
 docs_dir: 'docs'
 
