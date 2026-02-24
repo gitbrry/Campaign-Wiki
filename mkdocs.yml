@@ -7,9 +7,9 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes # This is the magic line that fixes your sidebar!
+    - navigation.indexes # Makes the folder name a clickable link
+    - navigation.expand  # Keeps the sub-items visible
+    # navigation.sections was REMOVED to stop the double-name issue
 
 docs_dir: 'docs'
 
