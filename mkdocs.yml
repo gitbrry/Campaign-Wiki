@@ -6,12 +6,12 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # This merges the folder name and the index.md
+    - navigation.indexes  # Merges the folder name with index.md
+    - navigation.sections # Creates the bold, arrow-ready headers
 
 docs_dir: 'docs'
 
 plugins:
   - search
   - roamlinks
-  - awesome-pages:
-      collapse_single_pages: true
+  - awesome-pages
