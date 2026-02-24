@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05_Session_Summaries/index.md",
+                "file": "docs/02_Locations/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/05_Session_Summaries/index.md",
+                "file": "docs/02_Locations/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/05_Session_Summaries/index.md",
+                "file": "docs/02_Locations/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/05_Session_Summaries/index.md",
+                "file": "docs/02_Locations/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,27 +214,27 @@
   },
   "active": "5d80d660a9858384",
   "lastOpenFiles": [
+    "docs/02_Locations/Example Location.md",
+    "docs/02_Locations/index.md",
+    "docs/03_NPCs/Bob the Gob.md",
+    "docs/03_NPCs/index.md",
+    "docs/04_Lore_and_Factions/Gooners.md",
     "docs/04_Lore_and_Factions/index.md",
     "docs/05_Session_Summaries/index.md",
-    "docs/index.md",
-    "docs/03_NPCs/index.md",
-    "docs/03_NPCs/Bob the Gob.md",
-    "docs/04_Lore_and_Factions/Gooners.md",
-    "docs/02_Locations/index.md",
-    "Untitled.md",
-    "docs/02_Locations/Example Location.md",
-    "README.md",
     "docs/05_Session_Summaries/Session 0.md",
     "site/search/search_index.json",
     "site/search",
     "site/05_Session_Summaries/Session 0/index.html",
     "site/05_Session_Summaries/Session 0",
+    "site/05_Session_Summaries/index.html",
     "site/05_Session_Summaries",
     "site/04_Lore_and_Factions/Gooners/index.html",
+    "site/04_Lore_and_Factions/index.html",
     "site/04_Lore_and_Factions/Gooners",
     "site/04_Lore_and_Factions",
-    "site/03_NPCs/Bob the Gob/index.html",
-    "site/03_NPCs/Bob the Gob",
+    "docs/index.md",
+    "Untitled.md",
+    "README.md",
     "mkdocs.yml.md",
     "site/assets/images/favicon.png",
     "index.md"
