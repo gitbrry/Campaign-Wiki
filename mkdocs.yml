@@ -6,9 +6,8 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # Merges the folder with the index file
-    - navigation.sections # Ensures arrows and bold headers stay consistent
-    # navigation.expand is GONE (to keep it collapsed)
+    - navigation.indexes # This merges the folders and index files
+    # navigation.sections REMOVED to stop the "02" from appearing
 
 docs_dir: 'docs'
 
