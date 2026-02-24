@@ -6,10 +6,9 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # Merges the folder name with the index.md file
-    - navigation.sections # Makes the folder names bold
-    # We REMOVED navigation.expand so the menu stays collapsed
-    # We REMOVED use_directory_urls: false to fix the page breaking
+    - navigation.indexes # This merges the folder name with the index file
+    # navigation.sections - REMOVED (This was forcing them to stay open and bold)
+    # navigation.expand - REMOVED (This was forcing sub-items to stay visible)
 
 docs_dir: 'docs'
 
