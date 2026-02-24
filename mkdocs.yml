@@ -14,12 +14,4 @@ docs_dir: 'docs'
 plugins:
   - search
   - roamlinks
-  - awesome-pages # This is the magic "Auto-Pilot" plugin
-
-nav:
-  - Home: index.md
-  - World Graph: World_Graph.md
-  - Locations: 02_Locations/
-  - NPCs: 03_NPCs/
-  - Lore: 04_Lore_and_Factions/
-  - Session Summaries: 05_Session_Summaries/
+  - awesome-pages
