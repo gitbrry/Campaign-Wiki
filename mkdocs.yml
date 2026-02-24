@@ -6,27 +6,20 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.expand # This forces all folders to stay "open" so you see sub-items
-    # DO NOT add navigation.tabs here - it will break the sidebar!
+    - navigation.sections
+    - navigation.expand
 
 docs_dir: 'docs'
 
 plugins:
   - search
   - roamlinks
+  - awesome-pages # This is the magic "Auto-Pilot" plugin
 
 nav:
   - Home: index.md
   - World Graph: World_Graph.md
-  - Locations: 
-    - Overview: 02_Locations/index.md
-    - 02_Locations/ # This tells it to look for everything else in the folder
-  - NPCs:
-    - Overview: 03_NPCs/index.md
-    - 03_NPCs/
-  - Lore:
-    - Overview: 04_Lore_and_Factions/index.md
-    - 04_Lore_and_Factions/
-  - Session Summaries:
-    - Overview: 05_Session_Summaries/index.md
-    - 05_Session_Summaries/
+  - Locations: 02_Locations/
+  - NPCs: 03_NPCs/
+  - Lore: 04_Lore_and_Factions/
+  - Session Summaries: 05_Session_Summaries/
