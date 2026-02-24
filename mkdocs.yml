@@ -1,15 +1,15 @@
 site_name: My Epic Campaign Wiki
 site_url: https://gitbrry.github.io/Campaign-Wiki/
-use_directory_urls: false
+# We REMOVED use_directory_urls: false to allow the links to merge
 
 theme:
   name: material
   palette:
     scheme: slate
   features:
-    - navigation.indexes # Makes the folder name a clickable link
-    - navigation.expand  # Keeps the sub-items visible
-    # navigation.sections was REMOVED to stop the double-name issue
+    - navigation.sections # Gives you the bold headers
+    - navigation.indexes  # MERGES the index file into the bold header
+    - navigation.expand   # Keeps the sub-items visible
 
 docs_dir: 'docs'
 
