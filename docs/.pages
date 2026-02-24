@@ -1,7 +1,7 @@
 nav:
-  - index.md
-  - World_Graph.md
-  - Locations
-  - NPCs
-  - Lore
-  - Summaries
+  - Home: index.md
+  - Interactive World Map: World_Graph.md
+  - Locations: Locations/
+  - NPCs: NPCs/
+  - Lore: Lore/
+  - Session Summaries: Summaries/

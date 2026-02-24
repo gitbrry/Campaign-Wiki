@@ -6,12 +6,12 @@ theme:
   palette:
     scheme: slate
   features:
-    - navigation.indexes # Merges the folder with the index file
-    - navigation.tracking # Highlights where you are in the menu
+    - navigation.indexes # Essential for clicking the folder name itself
 
 docs_dir: 'docs'
 
 plugins:
   - search
   - roamlinks
-  - awesome-pages
+  - awesome-pages:
+      collapse_single_pages: true
